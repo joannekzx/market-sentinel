@@ -31,15 +31,6 @@ APIs → Python ETL → S3 (raw, partitioned)
 - I want the pipeline to flag unusually large price moves (e.g., >5%) so that I can investigate potential market events.
 - I want volume spike detection to identify abnormal trading activity.
 
-### As a data engineer
-- I want raw ingested data stored in S3 with deterministic date partitions so that downstream transformations are reproducible.
-- I want curated datasets with consistent schemas for reliable SQL analytics.
-- I want orchestration so that ingestion, curation, and analytics refresh run in the correct order.
-- I want the pipeline to fail fast when anomalies are detected.
-
-### As a reviewer or interviewer
-- I want clear documentation and a reproducible setup so that I can evaluate the project quickly.
-
 ---
 
 ## Key Features
