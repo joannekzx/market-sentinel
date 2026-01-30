@@ -62,7 +62,7 @@ APIs → Python ETL → S3 (raw, partitioned)
 ---
 
 ## Repository Structure
-
+```
 fin-risk-observatory/
 ├── src/
 │ ├── extract/ # API ingestion logic
@@ -87,7 +87,7 @@ fin-risk-observatory/
 ├── pyproject.toml
 ├── .env.example
 └── .gitignore
-
+```
 
 ---
 
