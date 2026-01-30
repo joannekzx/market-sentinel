@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Mac
+.DS_Store
+
+# Airflow
+airflow/logs/
+airflow/plugins/__pycache__/
+
+# AWS / Athena outputs
+athena_query_results/
+analytics/
+
