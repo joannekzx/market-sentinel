@@ -1,4 +1,4 @@
-# Fin Risk Observatory
+# Market Sentinel: A Cloud-Native Market Risk Data Platform
 
 An end-to-end data engineering pipeline for financial market risk analysis.
 
